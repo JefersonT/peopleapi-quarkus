@@ -6,7 +6,7 @@ If you want to learn more about Quarkus, please visit its website: <https://quar
 
 ## Running the application in dev mode
 
-First start the containers listed in docker-compose.yml then you can run your application in dev mode that enables live coding using:
+First start the containers listed in `src/main/docker/docker-compose.yml` then you can run your application in dev mode that enables live coding using:
 
 ```shell script
 ./mvnw quarkus:dev
